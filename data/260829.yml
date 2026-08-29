@@ -1,0 +1,82 @@
+about:
+  description: Protocol Buffers - Google's data interchange format
+  license: NOASSERTION
+  homepage: http://protobuf.dev
+  head: 5b1c207
+  archived: false
+  latestVersion: v36.0
+  collectedAt: 2026-08-29T07:19:48Z
+timeline:
+  created: 2014-08-26
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-20
+popularity:
+  star: 71829
+  watcher: 2005
+  fork: 16258
+  release: 219
+  contributor: 1244
+  pullRequest: 12487
+  issue: 6903
+language:
+  C++: 15510523
+  C#: 7875989
+  C: 4837451
+  Java: 4624394
+  Objective-C: 2937624
+  Python: 1555583
+  Starlark: 1154146
+  PHP: 571132
+  Rust: 538021
+  Ruby: 375450
+  CMake: 165281
+  Kotlin: 146603
+  Shell: 77395
+  NASL: 29680
+  Lua: 27280
+  Swift: 25869
+  Pawn: 9595
+  Emacs Lisp: 7886
+  Vim Script: 3883
+  Batchfile: 2657
+  Objective-C++: 1244
+  PowerShell: 794
+  Awk: 684
+  Makefile: 580
+  M4: 454
+  Linker Script: 60
+  RenderScript: 1
+totalLine: 40480259
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 2
+    mergedPR: 204
+    openPR: 99
+    closedIssue: 2
+    openIssue: 9
+    commit: 237
+  last90d:
+    since: 2026-05-31
+    release: 4
+    mergedPR: 613
+    openPR: 149
+    closedIssue: 18
+    openIssue: 30
+    commit: 731
+  last180d:
+    since: 2026-03-02
+    release: 11
+    mergedPR: 1094
+    openPR: 183
+    closedIssue: 68
+    openIssue: 41
+    commit: 1342
+  last360d:
+    since: 2025-09-03
+    release: 24
+    mergedPR: 1958
+    openPR: 186
+    closedIssue: 194
+    openIssue: 55
+    commit: 2426
