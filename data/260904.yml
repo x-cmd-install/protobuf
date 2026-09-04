@@ -7,13 +7,13 @@ about:
   head: 13e019f
   archived: false
   latestVersion: v36.1
-  collectedAt: 2026-09-04T19:57:14Z
+  collectedAt: 2026-09-04T20:45:57Z
 timeline:
   created: 2014-08-26
   lastCommit: 2026-09-04
   lastRelease: 2026-08-31
 popularity:
-  star: 71998
+  star: 71999
   watcher: 2010
   fork: 16270
   release: 220
@@ -106,6 +106,214 @@ total:
   openIssue: 140
   commit: 23972
 ---
+path: /home/runner/.x-repo/github.com/protocolbuffers/protobuf
+collectedAt: 2026-09-04T20:46:11Z
+loc:
+  Cpp:
+    code: 253475
+    comments: 23165
+    blanks: 33335
+    files: 537
+  Java:
+    code: 238404
+    comments: 68541
+    blanks: 34659
+    files: 280
+  CSharp:
+    code: 161422
+    comments: 15839
+    blanks: 13932
+    files: 223
+  CHeader:
+    code: 147766
+    comments: 38758
+    blanks: 25593
+    files: 609
+  C:
+    code: 72462
+    comments: 8512
+    blanks: 11055
+    files: 138
+  ObjectiveC:
+    code: 56433
+    comments: 5803
+    blanks: 7915
+    files: 80
+  Protobuf:
+    code: 38306
+    comments: 7803
+    blanks: 7029
+    files: 472
+  Python:
+    code: 36100
+    comments: 3277
+    blanks: 5700
+    files: 106
+  Php:
+    code: 19486
+    comments: 10249
+    blanks: 3713
+    files: 156
+  Bitbake:
+    code: 14164
+    comments: 642
+    blanks: 1376
+    files: 17
+  Rust:
+    code: 11219
+    comments: 1202
+    blanks: 2026
+    files: 110
+  Ruby:
+    code: 7825
+    comments: 1016
+    blanks: 1304
+    files: 53
+  CMake:
+    code: 2984
+    comments: 216
+    blanks: 280
+    files: 25
+  Kotlin:
+    code: 2916
+    comments: 446
+    blanks: 366
+    files: 22
+  Json:
+    code: 2565
+    comments: 0
+    blanks: 0
+    files: 5
+  Sh:
+    code: 1766
+    comments: 325
+    blanks: 346
+    files: 40
+  Xml:
+    code: 1356
+    comments: 20
+    blanks: 56
+    files: 27
+  Lua:
+    code: 703
+    comments: 77
+    blanks: 121
+    files: 2
+  CppHeader:
+    code: 678
+    comments: 123
+    blanks: 216
+    files: 6
+  Swift:
+    code: 511
+    comments: 59
+    blanks: 75
+    files: 3
+  ReStructuredText:
+    code: 451
+    comments: 0
+    blanks: 138
+    files: 26
+  Go:
+    code: 308
+    comments: 30
+    blanks: 34
+    files: 4
+  Autoconf:
+    code: 247
+    comments: 51
+    blanks: 46
+    files: 7
+  Rakefile:
+    code: 247
+    comments: 38
+    blanks: 35
+    files: 3
+  MsBuild:
+    code: 147
+    comments: 10
+    blanks: 32
+    files: 9
+  Makefile:
+    code: 102
+    comments: 7
+    blanks: 30
+    files: 3
+  Toml:
+    code: 101
+    comments: 15
+    blanks: 23
+    files: 9
+  Dart:
+    code: 90
+    comments: 7
+    blanks: 17
+    files: 2
+  Elisp:
+    code: 86
+    comments: 85
+    blanks: 46
+    files: 1
+  Batch:
+    code: 79
+    comments: 3
+    blanks: 24
+    files: 4
+  VimScript:
+    code: 74
+    comments: 21
+    blanks: 12
+    files: 1
+  VisualStudioSolution:
+    code: 54
+    comments: 0
+    blanks: 0
+    files: 1
+  Yaml:
+    code: 47
+    comments: 5
+    blanks: 10
+    files: 3
+  AWK:
+    code: 34
+    comments: 6
+    blanks: 10
+    files: 2
+  ObjectiveCpp:
+    code: 14
+    comments: 19
+    blanks: 5
+    files: 1
+  PowerShell:
+    code: 9
+    comments: 6
+    blanks: 5
+    files: 1
+  M4:
+    code: 8
+    comments: 0
+    blanks: 3
+    files: 1
+  LinkerScript:
+    code: 6
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 10578
+    blanks: 3171
+    files: 81
+  Text:
+    code: 0
+    comments: 3854
+    blanks: 171
+    files: 58
+total:
+  code: 1072999
+  comments: 202164
+  blanks: 153153
+  files: 3129
 ---
 date: "2026-08-31T18:02:09Z"
 repo:
