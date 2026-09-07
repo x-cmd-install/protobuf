@@ -5,18 +5,18 @@ about:
   head: b127c2e
   archived: false
   latestVersion: "v36.1"
-  collectedAt: 2026-09-07T05:34:58Z
+  collectedAt: 2026-09-07T18:49:09Z
 timeline:
   created: 2014-08-26
   lastCommit: 2026-09-07
   lastRelease: 2026-08-31
 popularity:
-  star: 72000
+  star: 72004
   watcher: 2011
   fork: 16273
   release: 220
   contributor: 1233
-  pullRequest: 22425
+  pullRequest: 22426
   issue: 6919
 language:
   C++: 15548143
@@ -52,7 +52,7 @@ recent:
     since: 2026-08-08
     release: 2
     mergedPR: 169
-    openPR: 89
+    openPR: 87
     closedIssue: 2
     openIssue: 22
     commit: 153
@@ -60,7 +60,7 @@ recent:
     since: 2026-07-09
     release: 4
     mergedPR: 404
-    openPR: 118
+    openPR: 116
     closedIssue: 10
     openIssue: 37
     commit: 423
@@ -68,7 +68,7 @@ recent:
     since: 2026-06-09
     release: 5
     mergedPR: 574
-    openPR: 131
+    openPR: 129
     closedIssue: 18
     openIssue: 44
     commit: 649
@@ -76,7 +76,7 @@ recent:
     since: 2026-03-11
     release: 12
     mergedPR: 1072
-    openPR: 170
+    openPR: 168
     closedIssue: 62
     openIssue: 53
     commit: 1285
@@ -84,7 +84,7 @@ recent:
     since: 2025-09-12
     release: 24
     mergedPR: 1924
-    openPR: 173
+    openPR: 171
     closedIssue: 191
     openIssue: 69
     commit: 2370
@@ -92,20 +92,20 @@ recent:
     since: 2024-09-17
     release: 53
     mergedPR: 3886
-    openPR: 174
+    openPR: 172
     closedIssue: 572
     openIssue: 88
     commit: 5395
 total:
   release: 220
   mergedPR: 9844
-  openPR: 174
+  openPR: 172
   closedIssue: 6779
   openIssue: 140
   commit: 23975
 ---
 path: /home/runner/.x-repo/github.com/protocolbuffers/protobuf
-collectedAt: 2026-09-07T05:35:38Z
+collectedAt: 2026-09-07T18:49:51Z
 loc:
   Cpp:
     code: 253475
@@ -587,7 +587,7 @@ checks:
       - 'Warn: Project is vulnerable to: GHSA-5mg8-w23w-74h3'
 ---
 eget:
-  collectedAt: 2026-09-07T05:35:40+00:00
+  collectedAt: 2026-09-07T18:49:53+00:00
   platform:
     darwin/arm64:
       name:  protoc-36.1-osx-universal_binary.zip
