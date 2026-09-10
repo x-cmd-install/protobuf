@@ -2,12 +2,12 @@ about:
   description: "Protocol Buffers - Google's data interchange format"
   license: NOASSERTION
   homepage: http://protobuf.dev
-  head: 9fb1733
+  head: 7f3b73c
   archived: false
   latestVersion: "v36.1"
   latestRelease: "v36.1"
   latestPrerelease: "v36.0-rc2"
-  collectedAt: 2026-09-10T17:44:04Z
+  collectedAt: 2026-09-10T21:49:42Z
 timeline:
   created: 2014-08-26
   lastCommit: 2026-09-10
@@ -20,13 +20,13 @@ popularity:
   fork: 16278
   release: 220
   contributor: 1233
-  pullRequest: 22483
+  pullRequest: 22493
   issue: 6923
 language:
-  C++: 15562100
+  C++: 15567252
   C#: 7876422
-  C: 4876461
-  Java: 4629994
+  C: 4876627
+  Java: 4631761
   Objective-C: 2937615
   Python: 1555770
   Starlark: 1153172
@@ -50,76 +50,76 @@ language:
   M4: 454
   Linker Script: 60
   RenderScript: 1
-totalBytes: 40582266
+totalBytes: 40589351
 recent:
   last30d:
     since: 2026-08-11
     release: 2
-    mergedPR: 168
-    openPR: 103
+    mergedPR: 173
+    openPR: 107
     closedIssue: 4
     openIssue: 23
-    commit: 167
+    commit: 173
   last60d:
     since: 2026-07-12
     release: 3
-    mergedPR: 411
-    openPR: 132
+    mergedPR: 416
+    openPR: 136
     closedIssue: 13
     openIssue: 39
-    commit: 437
+    commit: 443
   last90d:
     since: 2026-06-12
     release: 4
-    mergedPR: 567
-    openPR: 145
+    mergedPR: 572
+    openPR: 149
     closedIssue: 20
     openIssue: 44
-    commit: 663
+    commit: 669
   last180d:
     since: 2026-03-14
     release: 12
-    mergedPR: 1068
-    openPR: 184
+    mergedPR: 1073
+    openPR: 188
     closedIssue: 63
     openIssue: 55
-    commit: 1299
+    commit: 1305
   last360d:
     since: 2025-09-15
     release: 24
-    mergedPR: 1933
-    openPR: 188
+    mergedPR: 1938
+    openPR: 192
     closedIssue: 189
     openIssue: 71
-    commit: 2384
+    commit: 2390
   last720d:
     since: 2024-09-20
     release: 50
-    mergedPR: 3846
-    openPR: 189
+    mergedPR: 3851
+    openPR: 193
     closedIssue: 573
     openIssue: 90
-    commit: 5367
+    commit: 5373
 total:
   release: 220
-  mergedPR: 9858
-  openPR: 189
+  mergedPR: 9863
+  openPR: 193
   closedIssue: 6781
   openIssue: 142
-  commit: 23989
+  commit: 23995
 ---
 path: /home/runner/.x-repo/github.com/protocolbuffers/protobuf
-collectedAt: 2026-09-10T17:44:46Z
+collectedAt: 2026-09-10T21:50:17Z
 loc:
   Cpp:
-    code: 253796
-    comments: 23170
-    blanks: 33345
+    code: 253894
+    comments: 23193
+    blanks: 33375
     files: 537
   Java:
-    code: 238406
-    comments: 68541
-    blanks: 34659
+    code: 238445
+    comments: 68544
+    blanks: 34665
     files: 280
   CSharp:
     code: 161422
@@ -128,12 +128,12 @@ loc:
     files: 223
   CHeader:
     code: 147775
-    comments: 38759
-    blanks: 25594
+    comments: 38761
+    blanks: 25593
     files: 609
   C:
     code: 72569
-    comments: 8509
+    comments: 8511
     blanks: 11062
     files: 138
   ObjectiveC:
@@ -157,7 +157,7 @@ loc:
     blanks: 3713
     files: 156
   Bitbake:
-    code: 14163
+    code: 14164
     comments: 642
     blanks: 1376
     files: 17
@@ -312,9 +312,9 @@ loc:
     blanks: 171
     files: 58
 total:
-  code: 1073450
-  comments: 202164
-  blanks: 153177
+  code: 1073588
+  comments: 202194
+  blanks: 153212
   files: 3132
 ---
 date: "2026-08-31T18:02:09Z"
