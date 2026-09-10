@@ -7,7 +7,7 @@ about:
   latestVersion: "v36.1"
   latestRelease: "v36.1"
   latestPrerelease: "v36.0-rc2"
-  collectedAt: 2026-09-10T21:49:42Z
+  collectedAt: 2026-09-10T22:05:04Z
 timeline:
   created: 2014-08-26
   lastCommit: 2026-09-10
@@ -109,7 +109,7 @@ total:
   commit: 23995
 ---
 path: /home/runner/.x-repo/github.com/protocolbuffers/protobuf
-collectedAt: 2026-09-10T21:50:17Z
+collectedAt: 2026-09-10T22:05:47Z
 loc:
   Cpp:
     code: 253894
