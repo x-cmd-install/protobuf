@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v36.1` (2026-08-31)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-11
 - **Assets in release**: 15
 
 ## Popularity
 
-- **Stars**: 72,023 · **Forks**: 16,281 · **Open issues**: 6,923 · **Contributors**: 1,233
+- **Stars**: 72,028 · **Forks**: 16,280 · **Open issues**: 6,925 · **Contributors**: 1,233
 
 ## Totals (cumulative)
 
-- **Releases**: 220 · **Merged PRs**: 9866 · **Open PRs**: 191 · **Closed issues**: 6781 · **Open issues**: 142 · **Commits**: 23998
+- **Releases**: 220 · **Merged PRs**: 9867 · **Open PRs**: 187 · **Closed issues**: 6781 · **Open issues**: 144 · **Commits**: 23999
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 2 | 169 | 104 | 4 | 23 | 176 |
-| last60d | 2026-07-13 | 3 | 400 | 131 | 13 | 39 | 446 |
-| 90d | 2026-06-13 | 4 | 563 | 147 | 19 | 44 | 672 |
-| last180d | 2026-03-15 | 12 | 1076 | 186 | 61 | 55 | 1308 |
-| 360d | 2025-09-16 | 24 | 1936 | 190 | 189 | 71 | 2393 |
-| last720d | 2024-09-21 | 50 | 3854 | 191 | 573 | 90 | 5359 |
+| 30d | 2026-08-12 | 2 | 170 | 100 | 4 | 25 | 177 |
+| last60d | 2026-07-13 | 3 | 401 | 127 | 13 | 41 | 447 |
+| 90d | 2026-06-13 | 4 | 564 | 143 | 19 | 46 | 673 |
+| last180d | 2026-03-15 | 12 | 1077 | 182 | 61 | 57 | 1309 |
+| 360d | 2025-09-16 | 24 | 1937 | 186 | 189 | 73 | 2394 |
+| last720d | 2024-09-21 | 50 | 3855 | 187 | 573 | 92 | 5360 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:03:12Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:56:16Z._
