@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,032 · **Forks**: 16,283 · **Open issues**: 6,926 · **Contributors**: 1,233
+- **Stars**: 72,033 · **Forks**: 16,282 · **Open issues**: 6,926 · **Contributors**: 1,233
 
 ## Totals (cumulative)
 
-- **Releases**: 220 · **Merged PRs**: 9870 · **Open PRs**: 203 · **Closed issues**: 6781 · **Open issues**: 145 · **Commits**: 24003
+- **Releases**: 220 · **Merged PRs**: 9870 · **Open PRs**: 195 · **Closed issues**: 6781 · **Open issues**: 145 · **Commits**: 24003
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 2 | 157 | 112 | 4 | 26 | 181 |
-| last60d | 2026-07-14 | 3 | 392 | 142 | 13 | 42 | 451 |
-| 90d | 2026-06-14 | 4 | 566 | 158 | 19 | 47 | 677 |
-| last180d | 2026-03-16 | 12 | 1069 | 198 | 60 | 58 | 1313 |
-| 360d | 2025-09-17 | 24 | 1932 | 202 | 188 | 74 | 2398 |
-| last720d | 2024-09-22 | 50 | 3856 | 203 | 571 | 93 | 5362 |
+| 30d | 2026-08-14 | 2 | 142 | 106 | 4 | 26 | 111 |
+| last60d | 2026-07-15 | 3 | 383 | 134 | 13 | 42 | 393 |
+| 90d | 2026-06-15 | 4 | 560 | 151 | 18 | 47 | 628 |
+| last180d | 2026-03-17 | 12 | 1062 | 190 | 60 | 58 | 1274 |
+| 360d | 2025-09-18 | 24 | 1927 | 194 | 188 | 74 | 2361 |
+| last720d | 2024-09-23 | 50 | 3851 | 195 | 571 | 93 | 5362 |
 
 ## Release assets
 
@@ -94,10 +94,10 @@ Reported by **472** distros on [repology.org](https://repology.org/project/proto
 | Debian unstable | `3.21.12` | ⚠️ outdated |
 | Debian 14 | `3.21.12` | ⚠️ outdated |
 | Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.21.12` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.6.1` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
+| Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
 | Arch | `36.1` | ✅ latest |
-| Homebrew | `36.1` | ✅ latest |
+| Homebrew | `33.6` | 🪦 legacy |
 | Fedora rawhide | `33.5` | ⚠️ outdated |
 | Nix unstable | `35.1` | 🪦 legacy |
 | Void | `35.1` | ⚠️ outdated |
@@ -113,4 +113,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:40:35Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:58:24Z._
