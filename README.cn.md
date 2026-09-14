@@ -48,22 +48,22 @@ x install protobuf
 
 ## 流行度
 
-- **Star**: 72,033 · **Fork**: 16,282 · **开放 issue**: 6,926 · **贡献者**: 1,233
+- **Star**: 72,035 · **Fork**: 16,287 · **开放 issue**: 6,927 · **贡献者**: 1,233
 
 ## 累计统计
 
-- **发布数**: 220 · **已合并 PR**: 9870 · **开放 PR**: 195 · **已关闭 issue**: 6781 · **开放 issue**: 145 · **提交数**: 24003
+- **发布数**: 220 · **已合并 PR**: 9870 · **开放 PR**: 202 · **已关闭 issue**: 6780 · **开放 issue**: 147 · **提交数**: 24003
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 142 | 106 | 4 | 26 | 111 |
-| last60d | 2026-07-15 | 3 | 383 | 134 | 13 | 42 | 393 |
-| 90d | 2026-06-15 | 4 | 560 | 151 | 18 | 47 | 628 |
-| last180d | 2026-03-17 | 12 | 1062 | 190 | 60 | 58 | 1274 |
-| 360d | 2025-09-18 | 24 | 1927 | 194 | 188 | 74 | 2361 |
-| last720d | 2024-09-23 | 50 | 3851 | 195 | 571 | 93 | 5362 |
+| 30d | 2026-08-15 | 2 | 141 | 113 | 4 | 28 | 111 |
+| last60d | 2026-07-16 | 3 | 375 | 135 | 13 | 42 | 393 |
+| 90d | 2026-06-16 | 4 | 549 | 158 | 18 | 48 | 628 |
+| last180d | 2026-03-18 | 12 | 1052 | 197 | 58 | 59 | 1274 |
+| 360d | 2025-09-19 | 24 | 1923 | 201 | 187 | 76 | 2361 |
+| last720d | 2024-09-24 | 50 | 3848 | 202 | 570 | 95 | 5353 |
 
 ## Release 资产
 
@@ -85,25 +85,6 @@ x install protobuf
 | [protoc-36.1-win64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-win64.zip) | 3.4 MiB | `native/win/x64` |
 | [tool_integrity.bzl](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/tool_integrity.bzl) | 92 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/protobuf) 上共有 **472** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**336** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.21.12` | ⚠️ outdated |
-| Debian 14 | `3.21.12` | ⚠️ outdated |
-| Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
-| Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
-| Arch | `36.1` | ✅ latest |
-| Homebrew | `33.6` | 🪦 legacy |
-| Fedora rawhide | `33.5` | ⚠️ outdated |
-| Nix unstable | `35.1` | 🪦 legacy |
-| Void | `35.1` | ⚠️ outdated |
-| Alpine edge | `31.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `34.2` | ⚠️ outdated |
-
 ## 改进这些数据
 
 protobuf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `protobuf` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -113,4 +94,4 @@ protobuf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:58:25Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:06:22Z._

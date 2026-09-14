@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,033 · **Forks**: 16,282 · **Open issues**: 6,926 · **Contributors**: 1,233
+- **Stars**: 72,035 · **Forks**: 16,287 · **Open issues**: 6,927 · **Contributors**: 1,233
 
 ## Totals (cumulative)
 
-- **Releases**: 220 · **Merged PRs**: 9870 · **Open PRs**: 195 · **Closed issues**: 6781 · **Open issues**: 145 · **Commits**: 24003
+- **Releases**: 220 · **Merged PRs**: 9870 · **Open PRs**: 202 · **Closed issues**: 6780 · **Open issues**: 147 · **Commits**: 24003
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 142 | 106 | 4 | 26 | 111 |
-| last60d | 2026-07-15 | 3 | 383 | 134 | 13 | 42 | 393 |
-| 90d | 2026-06-15 | 4 | 560 | 151 | 18 | 47 | 628 |
-| last180d | 2026-03-17 | 12 | 1062 | 190 | 60 | 58 | 1274 |
-| 360d | 2025-09-18 | 24 | 1927 | 194 | 188 | 74 | 2361 |
-| last720d | 2024-09-23 | 50 | 3851 | 195 | 571 | 93 | 5362 |
+| 30d | 2026-08-15 | 2 | 141 | 113 | 4 | 28 | 111 |
+| last60d | 2026-07-16 | 3 | 375 | 135 | 13 | 42 | 393 |
+| 90d | 2026-06-16 | 4 | 549 | 158 | 18 | 48 | 628 |
+| last180d | 2026-03-18 | 12 | 1052 | 197 | 58 | 59 | 1274 |
+| 360d | 2025-09-19 | 24 | 1923 | 201 | 187 | 76 | 2361 |
+| last720d | 2024-09-24 | 50 | 3848 | 202 | 570 | 95 | 5353 |
 
 ## Release assets
 
@@ -85,25 +85,6 @@ Lowest-scoring checks:
 | [protoc-36.1-win64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-win64.zip) | 3.4 MiB | `native/win/x64` |
 | [tool_integrity.bzl](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/tool_integrity.bzl) | 92 B | `other` |
 
-## Distribution status
-
-Reported by **472** distros on [repology.org](https://repology.org/project/protobuf). **32** are ✅ on the latest upstream release, **336** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.21.12` | ⚠️ outdated |
-| Debian 14 | `3.21.12` | ⚠️ outdated |
-| Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
-| Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
-| Arch | `36.1` | ✅ latest |
-| Homebrew | `33.6` | 🪦 legacy |
-| Fedora rawhide | `33.5` | ⚠️ outdated |
-| Nix unstable | `35.1` | 🪦 legacy |
-| Void | `35.1` | ⚠️ outdated |
-| Alpine edge | `31.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `34.2` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `protobuf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -113,4 +94,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:58:24Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:06:20Z._
