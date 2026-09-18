@@ -14,15 +14,15 @@ x install protobuf
 
 ## 代码洞察
 
-合计: **1,075,192** 行代码（覆盖前 5 种语言、共 **1792** 个文件）。
+合计: **1,075,382** 行代码（覆盖前 5 种语言、共 **1792** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 254,409 | 23,279 | 33,474 | 537 |
+| Cpp | 254,434 | 23,288 | 33,483 | 537 |
 | Java | 238,493 | 68,552 | 34,670 | 280 |
 | CSharp | 161,422 | 15,839 | 13,932 | 223 |
-| CHeader | 148,298 | 38,874 | 25,717 | 612 |
-| C | 73,189 | 8,582 | 11,163 | 140 |
+| CHeader | 148,328 | 38,878 | 25,723 | 612 |
+| C | 73,295 | 8,586 | 11,171 | 140 |
 
 ## OpenSSF Scorecard 评分
 
@@ -42,48 +42,48 @@ x install protobuf
 
 ## 发布
 
-- **最新版本**: `v36.1` (2026-08-31)
-- **最近提交**: 2026-09-16
+- **最新版本**: `v36.2` (2026-09-17)
+- **最近提交**: 2026-09-18
 - **Release 含资产**: 15 个
 
 ## 流行度
 
-- **Star**: 72,038 · **Fork**: 16,288 · **开放 issue**: 6,928 · **贡献者**: 1,233
+- **Star**: 72,043 · **Fork**: 16,289 · **开放 issue**: 6,929 · **贡献者**: 1,234
 
 ## 累计统计
 
-- **发布数**: 220 · **已合并 PR**: 9894 · **开放 PR**: 224 · **已关闭 issue**: 6785 · **开放 issue**: 143 · **提交数**: 24029
+- **发布数**: 221 · **已合并 PR**: 9903 · **开放 PR**: 227 · **已关闭 issue**: 6785 · **开放 issue**: 144 · **提交数**: 24040
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 2 | 136 | 131 | 9 | 23 | 136 |
-| last60d | 2026-07-19 | 3 | 381 | 155 | 15 | 32 | 418 |
-| 90d | 2026-06-19 | 4 | 553 | 180 | 23 | 43 | 653 |
-| last180d | 2026-03-21 | 10 | 1060 | 218 | 63 | 54 | 1299 |
-| 360d | 2025-09-22 | 24 | 1941 | 223 | 189 | 72 | 2386 |
-| last720d | 2024-09-27 | 50 | 3858 | 224 | 570 | 91 | 5357 |
+| 30d | 2026-08-19 | 3 | 133 | 133 | 9 | 24 | 147 |
+| last60d | 2026-07-20 | 4 | 371 | 158 | 15 | 32 | 429 |
+| 90d | 2026-06-20 | 5 | 562 | 183 | 23 | 44 | 664 |
+| last180d | 2026-03-22 | 11 | 1068 | 220 | 63 | 55 | 1310 |
+| 360d | 2025-09-23 | 25 | 1942 | 226 | 189 | 73 | 2397 |
+| last720d | 2024-09-28 | 51 | 3865 | 227 | 569 | 92 | 5361 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [protobuf-36.1.bazel.tar.gz](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protobuf-36.1.bazel.tar.gz) | 7.0 MiB | `native/unknown` |
-| [protobuf-36.1.bazel.tar.gz.intoto.jsonl](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protobuf-36.1.bazel.tar.gz.intoto.jsonl) | 10.8 KiB | `other` |
-| [protobuf-36.1.tar.gz](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protobuf-36.1.tar.gz) | 7.0 MiB | `native/unknown` |
-| [protobuf-36.1.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protobuf-36.1.zip) | 8.9 MiB | `other` |
-| [protoc-36.1-linux-aarch_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-linux-aarch_64.zip) | 3.5 MiB | `other` |
-| [protoc-36.1-linux-ppcle_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-linux-ppcle_64.zip) | 3.8 MiB | `other` |
-| [protoc-36.1-linux-s390_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-linux-s390_64.zip) | 4.5 MiB | `other` |
-| [protoc-36.1-linux-x86_32.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-linux-x86_32.zip) | 3.8 MiB | `other` |
-| [protoc-36.1-linux-x86_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-linux-x86_64.zip) | 3.5 MiB | `native/linux/x64` |
-| [protoc-36.1-osx-aarch_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-osx-aarch_64.zip) | 2.5 MiB | `native/darwin/x64` |
-| [protoc-36.1-osx-universal_binary.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-osx-universal_binary.zip) | 5.1 MiB | `native/darwin/x64` |
-| [protoc-36.1-osx-x86_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-osx-x86_64.zip) | 2.6 MiB | `native/darwin/x64` |
-| [protoc-36.1-win32.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-win32.zip) | 3.5 MiB | `native/win/x64` |
-| [protoc-36.1-win64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/protoc-36.1-win64.zip) | 3.4 MiB | `native/win/x64` |
-| [tool_integrity.bzl](https://github.com/protocolbuffers/protobuf/releases/download/v36.1/tool_integrity.bzl) | 92 B | `other` |
+| [protobuf-36.2.bazel.tar.gz](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protobuf-36.2.bazel.tar.gz) | 7.0 MiB | `native/unknown` |
+| [protobuf-36.2.bazel.tar.gz.intoto.jsonl](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protobuf-36.2.bazel.tar.gz.intoto.jsonl) | 10.6 KiB | `other` |
+| [protobuf-36.2.tar.gz](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protobuf-36.2.tar.gz) | 7.0 MiB | `native/unknown` |
+| [protobuf-36.2.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protobuf-36.2.zip) | 9.0 MiB | `other` |
+| [protoc-36.2-linux-aarch_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-aarch_64.zip) | 3.5 MiB | `other` |
+| [protoc-36.2-linux-ppcle_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-ppcle_64.zip) | 3.8 MiB | `other` |
+| [protoc-36.2-linux-s390_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-s390_64.zip) | 4.5 MiB | `other` |
+| [protoc-36.2-linux-x86_32.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-x86_32.zip) | 3.8 MiB | `other` |
+| [protoc-36.2-linux-x86_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-linux-x86_64.zip) | 3.5 MiB | `native/linux/x64` |
+| [protoc-36.2-osx-aarch_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-osx-aarch_64.zip) | 2.5 MiB | `native/darwin/x64` |
+| [protoc-36.2-osx-universal_binary.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-osx-universal_binary.zip) | 5.1 MiB | `native/darwin/x64` |
+| [protoc-36.2-osx-x86_64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-osx-x86_64.zip) | 2.6 MiB | `native/darwin/x64` |
+| [protoc-36.2-win32.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-win32.zip) | 3.5 MiB | `native/win/x64` |
+| [protoc-36.2-win64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protoc-36.2-win64.zip) | 3.4 MiB | `native/win/x64` |
+| [tool_integrity.bzl](https://github.com/protocolbuffers/protobuf/releases/download/v36.2/tool_integrity.bzl) | 1.1 KiB | `other` |
 
 ## 改进这些数据
 
@@ -94,4 +94,4 @@ protobuf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260917.yml` · 2026-09-17T06:11:20Z._
+_数据快照: `data/card/260918.yml` · 2026-09-18T05:54:54Z._
