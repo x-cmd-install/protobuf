@@ -14,25 +14,25 @@ x install protobuf
 
 ## Code insight
 
-Total: **1,077,818** lines of code across **1806** files in the top 5 languages.
+Total: **1,078,172** lines of code across **1806** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 256,436 | 23,552 | 33,856 | 545 |
-| Java | 238,512 | 68,560 | 34,676 | 280 |
+| Cpp | 256,547 | 23,564 | 33,872 | 545 |
+| Java | 238,512 | 68,568 | 34,676 | 280 |
 | CSharp | 161,526 | 16,922 | 13,937 | 223 |
-| CHeader | 147,573 | 39,086 | 25,798 | 615 |
-| C | 73,840 | 8,668 | 11,235 | 143 |
+| CHeader | 147,606 | 39,097 | 25,803 | 615 |
+| C | 73,880 | 8,670 | 11,235 | 143 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.4 / 10**
+Overall score: **5.8 / 10**
 
 Lowest-scoring checks:
 
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integrati…
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Code-Review** (0/10) — found 30 unreviewed changesets out of 30 -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v36.2` (2026-09-17)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-09-29
 - **Assets in release**: 15
 
 ## Popularity
 
-- **Stars**: 72,074 · **Forks**: 16,298 · **Open issues**: 6,936 · **Contributors**: 1,240
+- **Stars**: 72,076 · **Forks**: 16,300 · **Open issues**: 6,937 · **Contributors**: 1,239
 
 ## Totals (cumulative)
 
-- **Releases**: 221 · **Merged PRs**: 9974 · **Open PRs**: 337 · **Closed issues**: 6795 · **Open issues**: 141 · **Commits**: 24129
+- **Releases**: 221 · **Merged PRs**: 9994 · **Open PRs**: 348 · **Closed issues**: 6796 · **Open issues**: 141 · **Commits**: 24153
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 2 | 145 | 237 | 15 | 13 | 155 |
-| last60d | 2026-07-30 | 4 | 360 | 260 | 20 | 26 | 392 |
-| 90d | 2026-06-30 | 5 | 587 | 290 | 29 | 41 | 665 |
-| last180d | 2026-04-01 | 10 | 1075 | 330 | 67 | 51 | 1289 |
-| 360d | 2025-10-03 | 24 | 1938 | 336 | 193 | 69 | 2372 |
-| last720d | 2024-10-08 | 50 | 3857 | 337 | 566 | 88 | 5352 |
+| 30d | 2026-08-30 | 2 | 165 | 248 | 15 | 14 | 175 |
+| last60d | 2026-07-31 | 4 | 370 | 272 | 21 | 26 | 412 |
+| 90d | 2026-07-01 | 5 | 597 | 302 | 30 | 41 | 685 |
+| last180d | 2026-04-02 | 10 | 1089 | 341 | 68 | 51 | 1309 |
+| 360d | 2025-10-04 | 24 | 1953 | 347 | 194 | 69 | 2392 |
+| last720d | 2024-10-09 | 50 | 3868 | 348 | 564 | 88 | 5364 |
 
 ## Release assets
 
@@ -94,4 +94,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:24:20Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:41:03Z._
