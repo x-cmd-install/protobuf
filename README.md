@@ -14,19 +14,19 @@ x install protobuf
 
 ## Code insight
 
-Total: **1,111,989** lines of code across **1839** files in the top 5 languages.
+Total: **1,111,702** lines of code across **1840** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 264,884 | 24,615 | 35,126 | 561 |
+| Cpp | 264,751 | 24,618 | 35,123 | 561 |
 | Java | 260,053 | 82,528 | 36,576 | 285 |
 | CSharp | 161,914 | 16,946 | 13,971 | 224 |
-| CHeader | 149,102 | 40,557 | 25,798 | 626 |
-| C | 74,603 | 8,743 | 11,302 | 143 |
+| CHeader | 148,869 | 40,656 | 25,568 | 627 |
+| C | 74,617 | 8,757 | 11,302 | 143 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.3 / 10**
+Overall score: **6.4 / 10**
 
 Lowest-scoring checks:
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v36.2` (2026-09-17)
+- **Latest**: `v37.0-rc1` (2026-09-17)
 - **Last commit**: 2026-10-15
 - **Assets in release**: 15
 
 ## Popularity
 
-- **Stars**: 72,114 · **Forks**: 16,318 · **Open issues**: 6,950 · **Contributors**: 1,248
+- **Stars**: 72,113 · **Forks**: 16,315 · **Open issues**: 6,951 · **Contributors**: 1,249
 
 ## Totals (cumulative)
 
-- **Releases**: 221 · **Merged PRs**: 10167 · **Open PRs**: 234 · **Closed issues**: 6807 · **Open issues**: 143 · **Commits**: 24394
+- **Releases**: 222 · **Merged PRs**: 10178 · **Open PRs**: 228 · **Closed issues**: 6807 · **Open issues**: 144 · **Commits**: 24411
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 1 | 266 | 135 | 6 | 15 | 333 |
-| last60d | 2026-08-16 | 3 | 436 | 171 | 24 | 30 | 501 |
-| 90d | 2026-07-17 | 4 | 659 | 190 | 34 | 36 | 781 |
-| last180d | 2026-04-18 | 10 | 1187 | 225 | 74 | 51 | 1438 |
-| 360d | 2025-10-20 | 22 | 2020 | 233 | 189 | 69 | 2508 |
-| last720d | 2024-10-25 | 48 | 3923 | 234 | 560 | 90 | 5403 |
+| 30d | 2026-09-16 | 2 | 274 | 129 | 6 | 16 | 350 |
+| last60d | 2026-08-17 | 4 | 436 | 166 | 23 | 31 | 518 |
+| 90d | 2026-07-18 | 5 | 667 | 186 | 33 | 37 | 798 |
+| last180d | 2026-04-19 | 11 | 1198 | 219 | 74 | 52 | 1455 |
+| 360d | 2025-10-21 | 23 | 2022 | 227 | 188 | 70 | 2525 |
+| last720d | 2024-10-26 | 49 | 3934 | 228 | 559 | 91 | 5411 |
 
 ## Release assets
 
@@ -94,4 +94,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T05:27:36Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:27:14Z._
