@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,114 · **Forks**: 16,317 · **Open issues**: 6,953 · **Contributors**: 1,250
+- **Stars**: 72,111 · **Forks**: 16,318 · **Open issues**: 6,953 · **Contributors**: 1,250
 
 ## Totals (cumulative)
 
-- **Releases**: 222 · **Merged PRs**: 10197 · **Open PRs**: 230 · **Closed issues**: 6807 · **Open issues**: 146 · **Commits**: 24434
+- **Releases**: 222 · **Merged PRs**: 10197 · **Open PRs**: 239 · **Closed issues**: 6807 · **Open issues**: 146 · **Commits**: 24434
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 1 | 274 | 128 | 6 | 17 | 298 |
-| last60d | 2026-08-19 | 4 | 427 | 167 | 23 | 33 | 487 |
-| 90d | 2026-07-20 | 5 | 665 | 188 | 32 | 38 | 763 |
-| last180d | 2026-04-21 | 10 | 1200 | 221 | 73 | 54 | 1427 |
-| 360d | 2025-10-23 | 23 | 2033 | 229 | 186 | 72 | 2502 |
-| last720d | 2024-10-28 | 49 | 3947 | 230 | 558 | 93 | 5434 |
+| 30d | 2026-09-19 | 1 | 264 | 137 | 4 | 16 | 298 |
+| last60d | 2026-08-20 | 4 | 416 | 174 | 23 | 32 | 487 |
+| 90d | 2026-07-21 | 5 | 654 | 197 | 32 | 38 | 763 |
+| last180d | 2026-04-22 | 10 | 1189 | 230 | 71 | 54 | 1427 |
+| 360d | 2025-10-24 | 23 | 2028 | 238 | 186 | 72 | 2502 |
+| last720d | 2024-10-29 | 49 | 3939 | 239 | 557 | 93 | 5424 |
 
 ## Release assets
 
@@ -94,4 +94,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T05:29:03Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T05:31:43Z._
