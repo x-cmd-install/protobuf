@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,131 · **Forks**: 16,328 · **Open issues**: 6,955 · **Contributors**: 1,255
+- **Stars**: 72,128 · **Forks**: 16,326 · **Open issues**: 6,958 · **Contributors**: 1,255
 
 ## Totals (cumulative)
 
-- **Releases**: 222 · **Merged PRs**: 10261 · **Open PRs**: 281 · **Closed issues**: 6811 · **Open issues**: 144 · **Commits**: 24518
+- **Releases**: 222 · **Merged PRs**: 10261 · **Open PRs**: 286 · **Closed issues**: 6811 · **Open issues**: 147 · **Commits**: 24518
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 266 | 176 | 5 | 13 | 276 |
-| last60d | 2026-08-26 | 3 | 447 | 217 | 23 | 30 | 531 |
-| 90d | 2026-07-27 | 5 | 677 | 236 | 33 | 36 | 768 |
-| last180d | 2026-04-28 | 10 | 1227 | 271 | 68 | 52 | 1462 |
-| 360d | 2025-10-30 | 23 | 2064 | 280 | 183 | 70 | 2539 |
-| last720d | 2024-11-04 | 49 | 3966 | 281 | 553 | 91 | 5456 |
+| 30d | 2026-09-26 | 1 | 264 | 181 | 5 | 16 | 276 |
+| last60d | 2026-08-27 | 3 | 441 | 221 | 23 | 33 | 531 |
+| 90d | 2026-07-28 | 5 | 664 | 238 | 32 | 39 | 768 |
+| last180d | 2026-04-29 | 10 | 1223 | 276 | 68 | 55 | 1462 |
+| 360d | 2025-10-31 | 23 | 2058 | 285 | 182 | 73 | 2539 |
+| last720d | 2024-11-05 | 49 | 3958 | 286 | 551 | 94 | 5446 |
 
 ## Release assets
 
@@ -87,14 +87,14 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **461** distros on [repology.org](https://repology.org/project/protobuf). **32** are ✅ on the latest upstream release, **326** are ⚠️ on an older version.
+Reported by **462** distros on [repology.org](https://repology.org/project/protobuf). **33** are ✅ on the latest upstream release, **326** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `3.21.12` | ⚠️ outdated |
+| Debian unstable | `2.6.1` | 🪦 legacy |
 | Debian 14 | `3.21.12` | ⚠️ outdated |
-| Debian 13 | `2.6.1` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `3.21.12` | ⚠️ outdated |
+| Debian 13 | `3.21.12` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
 | Arch | `36.1` | ⚠️ outdated |
 | Homebrew | `36.2` | ✅ latest |
@@ -113,4 +113,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:32:53Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:33:44Z._
