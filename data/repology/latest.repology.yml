@@ -1,3 +1,58 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Ruby bindings for Google Protocol Buffers
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: protobuf
+  binname: python-protobuf
+  visiblename: python-protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Python 3 bindings for Google Protocol Buffers
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: protobuf
+  binname: python-protobuf
+  visiblename: python-protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Python 3 bindings for Google Protocol Buffers
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Ruby bindings for Google Protocol Buffers
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: protobuf
+  binname: protobuf
+  visiblename: protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD-3-Clause
 - repo: aerynos
   srcname: protobuf
   visiblename: protobuf
@@ -5,17 +60,6 @@
   origversion: null
   status: newest
   summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-- repo: chimera
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "35.1"
-  origversion: 35.1-r0
-  status: outdated
-  summary: Protocol buffers library
   licenses:
     - BSD-3-Clause
 - repo: aosc
@@ -30,17 +74,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - libs
-- repo: arch
-  subrepo: extra
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: "36.1"
-  origversion: 36.1-1
-  status: outdated
-  summary: Ruby bindings for Google Protocol Buffers
-  licenses:
-    - BSD-3-Clause
 - repo: arch
   subrepo: extra
   srcname: protobuf
@@ -63,18 +96,17 @@
   summary: Protocol Buffers - Google's data interchange format
   licenses:
     - BSD-3-Clause
-- repo: aur
-  srcname: mingw-w64-protobuf
-  binname: mingw-w64-protobuf
-  visiblename: mingw-w64-protobuf
+- repo: arch
+  subrepo: extra
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
   version: "36.1"
   origversion: 36.1-1
   status: outdated
-  summary: Protocol Buffers - Google's data interchange format (mingw-w64)
-  maintainers:
-    - xantares@aur
+  summary: Ruby bindings for Google Protocol Buffers
   licenses:
-    - BSD
+    - BSD-3-Clause
 - repo: aur
   srcname: protobuf-git
   binname: protobuf-git
@@ -99,6 +131,18 @@
     - chocobo1@aur
   licenses:
     - BSD-3-Clause
+- repo: aur
+  srcname: mingw-w64-protobuf
+  binname: mingw-w64-protobuf
+  visiblename: mingw-w64-protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format (mingw-w64)
+  maintainers:
+    - xantares@aur
+  licenses:
+    - BSD
 - repo: artix
   subrepo: world
   srcname: protobuf
@@ -143,23 +187,23 @@
 - repo: chimera
   subrepo: main
   srcname: protobuf
+  binname: protobuf
+  visiblename: protobuf
+  version: "35.1"
+  origversion: 35.1-r0
+  status: outdated
+  summary: Protocol buffers library
+  licenses:
+    - BSD-3-Clause
+- repo: chimera
+  subrepo: main
+  srcname: protobuf
   binname: protobuf-devel
   visiblename: protobuf-devel
   version: "35.1"
   origversion: 35.1-r0
   status: outdated
   summary: Protocol buffers library (development files)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: "36.0"
-  origversion: 36.0-1
-  status: outdated
-  summary: Ruby bindings for Google Protocol Buffers
   licenses:
     - BSD-3-Clause
 - repo: chimera
@@ -243,28 +287,6 @@
   summary: Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.
   maintainers:
     - tbier@posteo.de
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "36.0"
-  origversion: 36.0-1
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: protobuf
-  binname: python-protobuf
-  visiblename: python-protobuf
-  version: "36.0"
-  origversion: 36.0-1
-  status: outdated
-  summary: Python 3 bindings for Google Protocol Buffers
-  licenses:
-    - BSD-3-Clause
 - repo: debian_experimental
   subrepo: experimental/main
   srcname: protobuf
@@ -288,17 +310,29 @@
     - gcs@debian.org
   categories:
     - devel
-- repo: manjaro_testing
-  subrepo: extra
+- repo: debian_experimental
+  subrepo: experimental/main
   srcname: protobuf
-  binname: python-protobuf
-  visiblename: python-protobuf
-  version: "36.1"
-  origversion: 36.1-1
-  status: outdated
-  summary: Python 3 bindings for Google Protocol Buffers
-  licenses:
-    - BSD-3-Clause
+  binnames:
+    - ruby-google-protobuf
+    - libprotobuf36
+    - libprotobuf-lite36
+    - libprotobuf-dev
+    - libprotoc36
+    - libprotoc-dev
+    - protobuf-compiler
+    - python3-protobuf
+    - libprotobuf-java
+    - elpa-protobuf-mode
+    - php-google-protobuf
+  visiblename: protobuf
+  version: "36.2"
+  origversion: 36.2-3
+  status: newest
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - devel
 - repo: exherbo
   subrepo: net
   srcname: dev-libs/protobuf
@@ -323,39 +357,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-libs
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "36.1"
-  origversion: 36.1-1
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: "36.1"
-  origversion: 36.1-1
-  status: outdated
-  summary: Ruby bindings for Google Protocol Buffers
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "36.1"
-  origversion: 36.1-1
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
 - repo: fedora_rawhide
   subrepo: development
   srcname: protobuf
@@ -394,13 +395,13 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: protobuf
   binname: ruby-google-protobuf
   visiblename: ruby-google-protobuf
-  version: "36.1"
-  origversion: 36.1-1
+  version: "36.0"
+  origversion: 36.0-1
   status: outdated
   summary: Ruby bindings for Google Protocol Buffers
   licenses:
@@ -433,15 +434,15 @@
     - BSD
   categories:
     - dev-libs
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: protobuf
-  binname: python-protobuf
-  visiblename: python-protobuf
-  version: "36.1"
-  origversion: 36.1-1
+  binname: protobuf
+  visiblename: protobuf
+  version: "36.0"
+  origversion: 36.0-1
   status: outdated
-  summary: Python 3 bindings for Google Protocol Buffers
+  summary: Protocol Buffers - Google's data interchange format
   licenses:
     - BSD-3-Clause
 - repo: homebrew
@@ -480,6 +481,28 @@
   status: outdated
   maintainers:
     - prathamin@proton.me
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: protobuf
+  binname: python-protobuf
+  visiblename: python-protobuf
+  version: "36.0"
+  origversion: 36.0-1
+  status: outdated
+  summary: Python 3 bindings for Google Protocol Buffers
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: protobuf
+  binname: protobuf
+  visiblename: protobuf
+  version: "36.1"
+  origversion: 36.1-1
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD-3-Clause
 - repo: liguros_develop
   srcname: dev-libs/protobuf
   visiblename: dev-libs/protobuf
@@ -743,6 +766,17 @@
 - repo: openindiana
   subrepo: hipster
   srcname: protobuf
+  binname: library/c++/protobuf-340
+  visiblename: protobuf
+  version: "34.0"
+  origversion: null
+  status: legacy
+  summary: Protocol Buffers - Google data interchange format (runtime libraries)
+  categories:
+    - System/Libraries
+- repo: openindiana
+  subrepo: hipster
+  srcname: protobuf
   binname: library/c++/protobuf
   visiblename: protobuf
   version: "34.1"
@@ -781,17 +815,6 @@
   version: "35.0"
   origversion: null
   status: outdated
-  summary: Protocol Buffers - Google data interchange format (runtime libraries)
-  categories:
-    - System/Libraries
-- repo: openindiana
-  subrepo: hipster
-  srcname: protobuf
-  binname: library/c++/protobuf-340
-  visiblename: protobuf
-  version: "34.0"
-  origversion: null
-  status: legacy
   summary: Protocol Buffers - Google data interchange format (runtime libraries)
   categories:
     - System/Libraries
@@ -1067,6 +1090,14 @@
   summary: Protocol buffers C++ library
   maintainers:
     - termux@github
+- repo: salix_14_2
+  srcname: protobuf
+  visiblename: protobuf
+  version: 2.6.1
+  origversion: null
+  status: outdated
+  summary: protobuf (Google's data interchange format)
+  vulnerable: true
 - repo: void_x86_64
   subrepo: x86_64
   srcname: protobuf
@@ -1164,42 +1195,119 @@
   summary: data serialization format
   licenses:
     - BSD licenses
-- repo: stalix_dev
-  srcname: bin/protoc
-  binname: bin/protoc
-  visiblename: bin/protoc
-  version: "25.7"
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-  vulnerable: true
-- repo: stalix_dev
-  srcname: lib/protoc
-  binname: lib/protoc
-  visiblename: lib/protoc
-  version: "25.7"
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
-  vulnerable: true
-- repo: ubi_8
-  subrepo: appstream
+- repo: conancenter
   srcname: protobuf
   visiblename: protobuf
-  version: 3.5.0
-  origversion: 3.5.0-17.el8_10
+  version: 7.36.2
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: conancenter
+  srcname: protobuf
+  visiblename: protobuf
+  version: 7.35.1
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: protobuf
+  visiblename: protobuf
+  version: 6.33.5
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: protobuf
+  visiblename: protobuf
+  version: 5.29.6
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: protobuf_26
+  visiblename: protobuf
+  version: "26.1"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: protobuf_24
+  visiblename: protobuf
+  version: "24.4"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: protobuf_33
+  visiblename: protobuf
+  version: "33.1"
+  origversion: null
+  status: outdated
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: protobuf
+  binname: library/c++/protobuf-302
+  visiblename: protobuf
+  version: "30.2"
+  origversion: null
+  status: legacy
+  summary: Protocol Buffers - Google data interchange format (runtime libraries)
+  categories:
+    - System/Libraries
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: protobuf
+  binname: protoc
+  visiblename: protoc
+  version: 3.21.9
+  origversion: 3.21.9-r0
+  status: outdated
+  summary: Protocol buffer compiler binary and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: amazon_2
+  srcname: protobuf
+  visiblename: protobuf
+  version: 2.5.0
+  origversion: 2.5.0-8.amzn2.0.3
   status: outdated
   summary: Protocol Buffers - Google's data interchange format
   licenses:
     - BSD
   categories:
-    - Unspecified
+    - Development/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: protobuf
+  visiblename: protobuf
+  version: 2.5.0
+  origversion: 2.5.0-8.amzn2.0.4
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD
+  categories:
+    - Development/Libraries
   vulnerable: true
 - repo: amazon_2
   srcname: protobuf
@@ -1225,46 +1333,10 @@
   categories:
     - Development/Libraries
   vulnerable: true
-- repo: ibmi
-  srcname: protobuf
-  visiblename: protobuf
-  version: 3.6.0
-  origversion: 3.6.0-2
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: nix_stable_24_11
-  srcname: protobuf_26
+  srcname: protobuf_25
   visiblename: protobuf
-  version: "26.1"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: protobuf_27
-  visiblename: protobuf
-  version: "27.5"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: protobuf
-  visiblename: protobuf
-  version: "30.2"
+  version: "25.5"
   origversion: null
   status: outdated
   summary: Google's data interchange format
@@ -1272,18 +1344,6 @@
     - gaetan@glepage.com
   licenses:
     - BSD-3-Clause
-  vulnerable: true
-- repo: amazon_2
-  srcname: protobuf
-  visiblename: protobuf
-  version: 2.5.0
-  origversion: 2.5.0-8.amzn2.0.4
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD
-  categories:
-    - Development/Libraries
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1470,20 +1530,6 @@
 - repo: alpine_3_17
   subrepo: main
   srcname: protobuf
-  binname: protoc
-  visiblename: protoc
-  version: 3.21.9
-  origversion: 3.21.9-r0
-  status: outdated
-  summary: Protocol buffer compiler binary and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: protobuf
   binname: ruby-google-protobuf
   visiblename: ruby-google-protobuf
   version: 3.21.9
@@ -1602,303 +1648,337 @@
   origversion: 3.21.12-r2
   status: outdated
   summary: Library for extensible, efficient structure packing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-dev
-  visiblename: protobuf-dev
-  version: 3.21.12
-  origversion: 3.21.12-r2
-  status: outdated
-  summary: Library for extensible, efficient structure packing (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-vim
-  visiblename: protobuf-vim
-  version: 3.21.12
-  origversion: 3.21.12-r2
-  status: outdated
-  summary: Vim syntax for protobuf
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: protobuf
-  binname: protoc
-  visiblename: protoc
-  version: 3.21.12
-  origversion: 3.21.12-r2
-  status: outdated
-  summary: Protocol buffer compiler binary and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: 3.21.12
-  origversion: 3.21.12-r2
-  status: outdated
-  summary: Ruby bindings to Google's data interchange format
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause
   vulnerable: true
 - repo: aur
-  srcname: protobuf3.21
-  binname: protobuf3.21
-  visiblename: protobuf3.21
+  srcname: protobuf-21
+  binname: protobuf-21
+  visiblename: protobuf-21
+  version: "21.12"
+  origversion: 21.12-6
+  status: outdated
+  summary: Protocol Buffers (legacy)
+  maintainers:
+    - osamc@aur
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-dev
+  visiblename: protobuf-dev
   version: 3.21.12
-  origversion: 3.21.12-0
+  origversion: 3.21.12-r2
+  status: outdated
+  summary: Library for extensible, efficient structure packing (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-vim
+  visiblename: protobuf-vim
+  version: 3.21.12
+  origversion: 3.21.12-r2
+  status: outdated
+  summary: Vim syntax for protobuf
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: protobuf
+  binname: protoc
+  visiblename: protoc
+  version: 3.21.12
+  origversion: 3.21.12-r2
+  status: outdated
+  summary: Protocol buffer compiler binary and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
+  version: 3.21.12
+  origversion: 3.21.12-r2
+  status: outdated
+  summary: Ruby bindings to Google's data interchange format
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: libprotobuf
+  visiblename: libprotobuf
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Runtime library for C++ users of protocol buffers
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: libprotobuf-lite
+  visiblename: libprotobuf-lite
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Runtime library for C++ users with 'lite runtime' setting of protocol buffers
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: libprotoc
+  visiblename: libprotoc
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Runtime library for Protocol Buffer compiler
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf
+  visiblename: protobuf
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Library for extensible, efficient structure packing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-dev
+  visiblename: protobuf-dev
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Library for extensible, efficient structure packing (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-vim
+  visiblename: protobuf-vim
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Vim syntax for protobuf
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: apertis_v2023
+  subrepo: v2023/target
+  srcname: protobuf
+  binnames:
+    - ruby-google-protobuf
+    - libprotobuf23
+    - libprotobuf-lite23
+    - libprotobuf-dev
+    - libprotoc23
+    - libprotoc-dev
+    - protobuf-compiler
+    - python3-protobuf
+    - libprotobuf-java
+    - elpa-protobuf-mode
+  visiblename: protobuf
+  version: 3.12.4
+  origversion: 3.12.4-1+deb11u1+apertis1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: protoc
+  visiblename: protoc
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Protocol buffer compiler binary and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
+  version: "24.4"
+  origversion: 24.4-r0
+  status: outdated
+  summary: Ruby bindings to Google's data interchange format
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: libprotobuf
+  visiblename: libprotobuf
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Runtime library for C++ users of protocol buffers
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: libprotobuf-lite
+  visiblename: libprotobuf-lite
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Runtime library for C++ users with 'lite runtime' setting of protocol buffers
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: libprotoc
+  visiblename: libprotoc
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Runtime library for Protocol Buffer compiler
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf
+  visiblename: protobuf
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Library for extensible, efficient structure packing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-dev
+  visiblename: protobuf-dev
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Library for extensible, efficient structure packing (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-vim
+  visiblename: protobuf-vim
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Vim syntax for protobuf
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: protoc
+  visiblename: protoc
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Protocol buffer compiler binary and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: protobuf
+  binname: ruby-google-protobuf
+  visiblename: ruby-google-protobuf
+  version: "24.4"
+  origversion: 24.4-r1
+  status: outdated
+  summary: Ruby bindings to Google's data interchange format
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: protobuf
+  visiblename: protobuf
+  version: 3.5.0
+  origversion: 3.5.0-7.el8
   status: outdated
   summary: Protocol Buffers - Google's data interchange format
-  maintainers:
-    - kaolinite7@aur
   licenses:
     - BSD
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: libprotobuf
-  visiblename: libprotobuf
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Runtime library for C++ users of protocol buffers
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: libprotobuf-lite
-  visiblename: libprotobuf-lite
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Runtime library for C++ users with 'lite runtime' setting of protocol buffers
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: libprotoc
-  visiblename: libprotoc
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Runtime library for Protocol Buffer compiler
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Library for extensible, efficient structure packing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-dev
-  visiblename: protobuf-dev
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Library for extensible, efficient structure packing (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-vim
-  visiblename: protobuf-vim
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Vim syntax for protobuf
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: protoc
-  visiblename: protoc
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Protocol buffer compiler binary and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: "24.4"
-  origversion: 24.4-r0
-  status: outdated
-  summary: Ruby bindings to Google's data interchange format
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: libprotobuf
-  visiblename: libprotobuf
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Runtime library for C++ users of protocol buffers
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: libprotobuf-lite
-  visiblename: libprotobuf-lite
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Runtime library for C++ users with 'lite runtime' setting of protocol buffers
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: libprotoc
-  visiblename: libprotoc
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Runtime library for Protocol Buffer compiler
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf
-  visiblename: protobuf
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Library for extensible, efficient structure packing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-dev
-  visiblename: protobuf-dev
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Library for extensible, efficient structure packing (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-vim
-  visiblename: protobuf-vim
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Vim syntax for protobuf
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: protoc
-  visiblename: protoc
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Protocol buffer compiler binary and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: protobuf
-  binname: ruby-google-protobuf
-  visiblename: ruby-google-protobuf
-  version: "24.4"
-  origversion: 24.4-r1
-  status: outdated
-  summary: Ruby bindings to Google's data interchange format
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: alpine_3_21
   subrepo: main
@@ -2082,20 +2162,6 @@
   licenses:
     - BSD-3-Clause
   vulnerable: true
-- repo: alpine_edge
-  subrepo: main
-  srcname: protobuf
-  binname: protobuf-vim
-  visiblename: protobuf-vim
-  version: "31.1"
-  origversion: 31.1-r4
-  status: outdated
-  summary: Vim syntax for protobuf
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
 - repo: alpine_3_22
   subrepo: main
   srcname: protobuf
@@ -2385,6 +2451,20 @@
   origversion: 31.1-r4
   status: outdated
   summary: Library for extensible, efficient structure packing (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_edge
+  subrepo: main
+  srcname: protobuf
+  binname: protobuf-vim
+  visiblename: protobuf-vim
+  version: "31.1"
+  origversion: 31.1-r4
+  status: outdated
+  summary: Vim syntax for protobuf
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -2523,39 +2603,6 @@
   categories:
     - Development/Libraries
   vulnerable: true
-- repo: amazon_2
-  srcname: protobuf
-  visiblename: protobuf
-  version: 2.5.0
-  origversion: 2.5.0-8.amzn2.0.3
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD
-  categories:
-    - Development/Libraries
-  vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/target
-  srcname: protobuf
-  binnames:
-    - ruby-google-protobuf
-    - libprotobuf23
-    - libprotobuf-lite23
-    - libprotobuf-dev
-    - libprotoc23
-    - libprotoc-dev
-    - protobuf-compiler
-    - python3-protobuf
-    - libprotobuf-java
-    - elpa-protobuf-mode
-  visiblename: protobuf
-  version: 3.12.4
-  origversion: 3.12.4-1+deb11u1+apertis1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  vulnerable: true
 - repo: apertis_v2024
   subrepo: v2024/target
   srcname: protobuf
@@ -2666,45 +2713,20 @@
   maintainers:
     - gcs@debian.org
   vulnerable: true
-- repo: aur
-  srcname: protobuf-21
-  binname: protobuf-21
-  visiblename: protobuf-21
-  version: "21.12"
-  origversion: 21.12-6
-  status: outdated
-  summary: Protocol Buffers (legacy)
-  maintainers:
-    - osamc@aur
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: aur
-  srcname: protobuf-21
-  binname: python-protobuf-21
-  visiblename: python-protobuf-21
-  version: "21.12"
-  origversion: 21.12-6
-  status: outdated
-  summary: Python bindings for Google Protocol Buffers (legacy)
-  maintainers:
-    - osamc@aur
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: aur
-  srcname: protobuf3.12
-  binname: protobuf3.12
-  visiblename: protobuf3.12
-  version: 3.12.4
-  origversion: 3.12.4-3
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: protobuf2
+  binnames:
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4
   status: legacy
-  summary: Protocol Buffers - Google's data interchange format
   maintainers:
-    - awhetter@aur
-    - torxed@aur
-  licenses:
-    - BSD
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
+  categories:
+    - misc
   vulnerable: true
 - repo: aur
   srcname: android-aarch64-protobuf
@@ -2755,6 +2777,46 @@
   summary: Protocol Buffers - Google's data interchange format (Android x86)
   maintainers:
     - fallback-mnt-aur@repology
+  licenses:
+    - BSD
+  vulnerable: true
+- repo: aur
+  srcname: protobuf-21
+  binname: python-protobuf-21
+  visiblename: python-protobuf-21
+  version: "21.12"
+  origversion: 21.12-6
+  status: outdated
+  summary: Python bindings for Google Protocol Buffers (legacy)
+  maintainers:
+    - osamc@aur
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: aur
+  srcname: protobuf3.12
+  binname: protobuf3.12
+  visiblename: protobuf3.12
+  version: 3.12.4
+  origversion: 3.12.4-3
+  status: legacy
+  summary: Protocol Buffers - Google's data interchange format
+  maintainers:
+    - awhetter@aur
+    - torxed@aur
+  licenses:
+    - BSD
+  vulnerable: true
+- repo: aur
+  srcname: protobuf3.21
+  binname: protobuf3.21
+  visiblename: protobuf3.21
+  version: 3.21.12
+  origversion: 3.21.12-0
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  maintainers:
+    - kaolinite7@aur
   licenses:
     - BSD
   vulnerable: true
@@ -3034,21 +3096,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: protobuf2
-  binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
-  categories:
-    - misc
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: protobuf
@@ -3081,34 +3128,6 @@
   version: 3.21.12
   origversion: null
   status: outdated
-  vulnerable: true
-- repo: conancenter
-  srcname: protobuf
-  visiblename: protobuf
-  version: 7.36.2
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: conancenter
-  srcname: protobuf
-  visiblename: protobuf
-  version: 7.35.1
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: protobuf
-  visiblename: protobuf
-  version: 6.33.5
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: protobuf
-  visiblename: protobuf
-  version: 5.29.6
-  origversion: null
-  status: legacy
   vulnerable: true
 - repo: crux_37
   subrepo: opt
@@ -3267,6 +3286,21 @@
   categories:
     - devel
   vulnerable: true
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: protobuf2
+  binnames:
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4
+  status: legacy
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
+  categories:
+    - misc
+  vulnerable: true
 - repo: debian_14
   subrepo: forky/main
   srcname: protobuf
@@ -3329,21 +3363,6 @@
     - gcs@debian.org
   categories:
     - devel
-  vulnerable: true
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: protobuf2
-  binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
-  categories:
-    - misc
   vulnerable: true
 - repo: deepin_unstable
   subrepo: main
@@ -3517,19 +3536,6 @@
   visiblename: protobuf
   version: 3.5.0
   origversion: 3.5.0-13.el8
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: protobuf
-  visiblename: protobuf
-  version: 3.5.0
-  origversion: 3.5.0-7.el8
   status: outdated
   summary: Protocol Buffers - Google's data interchange format
   licenses:
@@ -3858,26 +3864,6 @@
   vulnerable: true
 - repo: fedora_42
   subrepo: release
-  srcname: mingw-protobuf
-  binnames:
-    - mingw32-protobuf
-    - mingw32-protobuf-static
-    - mingw32-protobuf-tools
-    - mingw64-protobuf
-    - mingw64-protobuf-static
-    - mingw64-protobuf-tools
-  visiblename: mingw-protobuf
-  version: 3.19.6
-  origversion: 3.19.6-8.fc42
-  status: outdated
-  summary: MinGW Windows protobuf library
-  licenses:
-    - LicenseRef-Callaway-BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_42
-  subrepo: release
   srcname: protobuf
   binnames:
     - protobuf
@@ -3895,6 +3881,26 @@
   summary: Protocol Buffers - Google's data interchange format
   licenses:
     - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_42
+  subrepo: release
+  srcname: mingw-protobuf
+  binnames:
+    - mingw32-protobuf
+    - mingw32-protobuf-static
+    - mingw32-protobuf-tools
+    - mingw64-protobuf
+    - mingw64-protobuf-static
+    - mingw64-protobuf-tools
+  visiblename: mingw-protobuf
+  version: 3.19.6
+  origversion: 3.19.6-8.fc42
+  status: outdated
+  summary: MinGW Windows protobuf library
+  licenses:
+    - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
   vulnerable: true
@@ -3921,6 +3927,15 @@
     - BSD-3-Clause
   categories:
     - Unspecified
+  vulnerable: true
+- repo: haikuports_master
+  srcname: dev-libs/protobuf
+  visiblename: dev-libs/protobuf
+  version: 3.20.1
+  origversion: null
+  status: outdated
+  categories:
+    - dev-libs
   vulnerable: true
 - repo: fedora_43
   subrepo: release
@@ -4015,6 +4030,18 @@
     - BSD-3-Clause
   categories:
     - Unspecified
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: protobuf_30
+  visiblename: protobuf
+  version: "30.2"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
   vulnerable: true
 - repo: freebsd
   srcname: devel/protobuf25
@@ -4278,27 +4305,6 @@
 - repo: haikuports_master
   srcname: dev-libs/protobuf
   visiblename: dev-libs/protobuf
-  version: 3.20.1
-  origversion: null
-  status: outdated
-  categories:
-    - dev-libs
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: protobuf_24
-  visiblename: protobuf
-  version: "24.4"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: haikuports_master
-  srcname: dev-libs/protobuf
-  visiblename: dev-libs/protobuf
   version: 3.17.2
   origversion: null
   status: legacy
@@ -4321,17 +4327,17 @@
   status: legacy
   summary: Protocol buffers (Google's data interchange format)
   vulnerable: true
-- repo: nix_stable_24_05
+- repo: ibmi
   srcname: protobuf
   visiblename: protobuf
-  version: "24.4"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - fallback-mnt-nix@repology
+  version: 3.6.0
+  origversion: 3.6.0-2
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
   licenses:
     - BSD-3-Clause
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: kali_rolling
   subrepo: main
@@ -4403,18 +4409,6 @@
     - BSD
   categories:
     - dev-libs
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: protobuf_25
-  visiblename: protobuf
-  version: "25.5"
-  origversion: null
-  status: outdated
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-libs/protobuf
@@ -4575,6 +4569,18 @@
   categories:
     - Development/Other
   vulnerable: true
+- repo: nix_stable_25_11
+  srcname: protobuf_31
+  visiblename: protobuf
+  version: "31.1"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
 - repo: mageia_10
   subrepo: core/release
   srcname: protobuf
@@ -4603,6 +4609,18 @@
   categories:
     - Development/Other
   vulnerable: true
+- repo: nix_stable_25_11
+  srcname: protobuf_25
+  visiblename: protobuf
+  version: "25.8"
+  origversion: null
+  status: outdated
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: protobuf
@@ -4630,6 +4648,18 @@
     - spdx:BSD-3-Clause
   categories:
     - development
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: protobuf
+  visiblename: protobuf
+  version: "24.4"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: protobuf3_20
@@ -4721,6 +4751,30 @@
   version: "23.4"
   origversion: null
   status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: protobuf_27
+  visiblename: protobuf
+  version: "27.5"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: protobuf
+  visiblename: protobuf
+  version: "30.2"
+  origversion: null
+  status: outdated
   summary: Google's data interchange format
   maintainers:
     - gaetan@glepage.com
@@ -4836,18 +4890,6 @@
     - BSD-3-Clause
   vulnerable: true
 - repo: nix_stable_25_11
-  srcname: protobuf_25
-  visiblename: protobuf
-  version: "25.8"
-  origversion: null
-  status: outdated
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_25_11
   srcname: protobuf_27
   visiblename: protobuf
   version: "27.5"
@@ -4870,54 +4912,6 @@
     - gaetan@glepage.com
   licenses:
     - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: protobuf_30
-  visiblename: protobuf
-  version: "30.2"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: protobuf_31
-  visiblename: protobuf
-  version: "31.1"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: protobuf_33
-  visiblename: protobuf
-  version: "33.1"
-  origversion: null
-  status: outdated
-  summary: Google's data interchange format
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp4
-  srcname: protobuf2
-  visiblename: protobuf2
-  version: 2.5.0
-  origversion: 2.5.0-2.oe2003sp4
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: nix_stable_26_05
   srcname: protobuf_21
@@ -5136,6 +5130,18 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openeuler_20_03_lts_sp4
+  srcname: protobuf2
+  visiblename: protobuf2
+  version: 2.5.0
+  origversion: 2.5.0-2.oe2003sp4
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: openeuler_22_03_lts_sp1
   srcname: protobuf
   binnames:
@@ -5190,6 +5196,29 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: protobuf
+  binnames:
+    - ruby-google-protobuf
+    - libprotobuf17
+    - libprotobuf-lite17
+    - libprotobuf-dev
+    - libprotoc17
+    - libprotoc-dev
+    - protobuf-compiler
+    - python-protobuf
+    - python3-protobuf
+    - libprotobuf-java
+  visiblename: protobuf
+  version: 3.6.1.3
+  origversion: 3.6.1.3-ok1.2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - devel
+  vulnerable: true
 - repo: openeuler_22_03_lts_sp3
   srcname: protobuf
   binnames:
@@ -5217,18 +5246,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: protobuf
-  binname: library/c++/protobuf-302
-  visiblename: protobuf
-  version: "30.2"
-  origversion: null
-  status: legacy
-  summary: Protocol Buffers - Google data interchange format (runtime libraries)
-  categories:
-    - System/Libraries
-  vulnerable: true
 - repo: openeuler_22_03_lts_sp3
   srcname: protobuf2
   binnames:
@@ -5255,18 +5272,6 @@
     - BSD
   categories:
     - Unspecified
-  vulnerable: true
-- repo: stalix_dev
-  srcname: lib/protobuf
-  binname: lib/protobuf
-  visiblename: lib/protobuf
-  version: "25.7"
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
   vulnerable: true
 - repo: openeuler_22_03_lts_sp4
   srcname: protobuf
@@ -5348,6 +5353,30 @@
     - BSD
   categories:
     - Unspecified
+  vulnerable: true
+- repo: openkylin_3_0
+  subrepo: huanghe/main
+  srcname: protobuf
+  binnames:
+    - ruby-google-protobuf
+    - libprotobuf32t64
+    - libprotobuf-lite32t64
+    - libprotobuf-dev
+    - libprotoc32t64
+    - libprotoc-dev
+    - protobuf-compiler
+    - python3-protobuf
+    - libprotobuf-java
+    - elpa-protobuf-mode
+    - php-google-protobuf
+  visiblename: protobuf
+  version: 3.21.12
+  origversion: 3.21.12-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - devel
   vulnerable: true
 - repo: openeuler_24_03_lts
   srcname: protobuf2
@@ -5538,29 +5567,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: protobuf
-  binnames:
-    - ruby-google-protobuf
-    - libprotobuf17
-    - libprotobuf-lite17
-    - libprotobuf-dev
-    - libprotoc17
-    - libprotoc-dev
-    - protobuf-compiler
-    - python-protobuf
-    - python3-protobuf
-    - libprotobuf-java
-  visiblename: protobuf
-  version: 3.6.1.3
-  origversion: 3.6.1.3-ok1.2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - devel
-  vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile/main
   srcname: protobuf
@@ -5584,19 +5590,6 @@
     - packaging@lists.openkylin.top
   categories:
     - devel
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: protobuf
-  visiblename: protobuf
-  version: "25.1"
-  origversion: 25.1-150600.16.10.1
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Libraries/C and C++
   vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
@@ -5646,29 +5639,18 @@
   categories:
     - devel
   vulnerable: true
-- repo: openkylin_3_0
-  subrepo: huanghe/main
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
   srcname: protobuf
-  binnames:
-    - ruby-google-protobuf
-    - libprotobuf32t64
-    - libprotobuf-lite32t64
-    - libprotobuf-dev
-    - libprotoc32t64
-    - libprotoc-dev
-    - protobuf-compiler
-    - python3-protobuf
-    - libprotobuf-java
-    - elpa-protobuf-mode
-    - php-google-protobuf
   visiblename: protobuf
-  version: 3.21.12
-  origversion: 3.21.12-ok2
+  version: "25.1"
+  origversion: 25.1-150600.16.16.1
   status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD-3-Clause
   categories:
-    - devel
+    - Development/Libraries/C and C++
   vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe-proposed/main
@@ -5778,6 +5760,34 @@
   categories:
     - RPC
   vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: protobuf2
+  binnames:
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4
+  status: legacy
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
+  categories:
+    - misc
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: protobuf
+  visiblename: protobuf
+  version: 3.9.2
+  origversion: 3.9.2-150200.4.19.2
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Libraries/C and C++
+  vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: protobuf
@@ -5869,19 +5879,6 @@
   categories:
     - Development/Libraries/C and C++
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: protobuf
-  visiblename: protobuf
-  version: 3.9.2
-  origversion: 3.9.2-150200.4.19.2
-  status: outdated
-  summary: Protocol Buffers - Google's data interchange format
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Libraries/C and C++
-  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: protobuf
@@ -5921,24 +5918,12 @@
   categories:
     - Development/Libraries/C and C++
   vulnerable: true
-- repo: stalix
-  srcname: lib/protoc
-  binname: lib/protoc
-  visiblename: lib/protoc
-  version: "25.7"
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
-  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: protobuf
   visiblename: protobuf
   version: "25.1"
-  origversion: 25.1-150600.16.13.1
+  origversion: 25.1-150600.16.10.1
   status: outdated
   summary: Protocol Buffers - Google's data interchange format
   licenses:
@@ -5951,7 +5936,7 @@
   srcname: protobuf
   visiblename: protobuf
   version: "25.1"
-  origversion: 25.1-150600.16.16.1
+  origversion: 25.1-150600.16.13.1
   status: outdated
   summary: Protocol Buffers - Google's data interchange format
   licenses:
@@ -6080,16 +6065,27 @@
   categories:
     - devel
   vulnerable: true
-- repo: ravenports
-  srcname: protobuf321
-  binname: protobuf321
-  visiblename: protobuf321
-  version: "21.12"
-  origversion: null
-  status: legacy
-  summary: Google's data interchange format
+- repo: parrot
+  subrepo: parrot/main
+  srcname: protobuf
+  binnames:
+    - ruby-google-protobuf
+    - libprotobuf32t64
+    - libprotobuf-lite32t64
+    - libprotobuf-dev
+    - libprotoc32t64
+    - libprotoc-dev
+    - protobuf-compiler
+    - python3-protobuf
+    - libprotobuf-java
+    - elpa-protobuf-mode
+    - php-google-protobuf
+  visiblename: protobuf
+  version: 3.21.12
+  origversion: 3.21.12-11+deb13u1
+  status: outdated
   maintainers:
-    - fallback-mnt-ravenports@repology
+    - gcs@debian.org
   categories:
     - devel
   vulnerable: true
@@ -6119,45 +6115,6 @@
   vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
-  srcname: protobuf2
-  binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: protobuf
-  binnames:
-    - ruby-google-protobuf
-    - libprotobuf32t64
-    - libprotobuf-lite32t64
-    - libprotobuf-dev
-    - libprotoc32t64
-    - libprotoc-dev
-    - protobuf-compiler
-    - python3-protobuf
-    - libprotobuf-java
-    - elpa-protobuf-mode
-    - php-google-protobuf
-  visiblename: protobuf
-  version: 3.21.12
-  origversion: 3.21.12-11+deb13u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
   srcname: protobuf2
   binnames:
     - libprotobuf2-java
@@ -6405,6 +6362,19 @@
   categories:
     - misc
   vulnerable: true
+- repo: ravenports
+  srcname: protobuf321
+  binname: protobuf321
+  visiblename: protobuf321
+  version: "21.12"
+  origversion: null
+  status: legacy
+  summary: Google's data interchange format
+  maintainers:
+    - fallback-mnt-ravenports@repology
+  categories:
+    - devel
+  vulnerable: true
 - repo: rocky_8
   subrepo: AppStream
   srcname: protobuf
@@ -6598,14 +6568,6 @@
   categories:
     - Development/Other
   vulnerable: true
-- repo: salix_14_2
-  srcname: protobuf
-  visiblename: protobuf
-  version: 2.6.1
-  origversion: null
-  status: outdated
-  summary: protobuf (Google's data interchange format)
-  vulnerable: true
 - repo: stalix
   srcname: bin/protoc
   binname: bin/protoc
@@ -6629,6 +6591,67 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
+  vulnerable: true
+- repo: stalix
+  srcname: lib/protoc
+  binname: lib/protoc
+  visiblename: lib/protoc
+  version: "25.7"
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+  vulnerable: true
+- repo: stalix_dev
+  srcname: bin/protoc
+  binname: bin/protoc
+  visiblename: bin/protoc
+  version: "25.7"
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+  vulnerable: true
+- repo: stalix_dev
+  srcname: lib/protobuf
+  binname: lib/protobuf
+  visiblename: lib/protobuf
+  version: "25.7"
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+  vulnerable: true
+- repo: stalix_dev
+  srcname: lib/protoc
+  binname: lib/protoc
+  visiblename: lib/protoc
+  version: "25.7"
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+  vulnerable: true
+- repo: ubi_8
+  subrepo: appstream
+  srcname: protobuf
+  visiblename: protobuf
+  version: 3.5.0
+  origversion: 3.5.0-17.el8_10
+  status: outdated
+  summary: Protocol Buffers - Google's data interchange format
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/main
@@ -6675,32 +6698,6 @@
     - devel
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: protobuf
-  binnames:
-    - libprotobuf10
-    - libprotobuf-lite10
-    - libprotobuf-dev
-    - libprotoc10
-    - libprotoc-dev
-    - protobuf-compiler
-    - python-protobuf
-    - python3-protobuf
-    - libprotobuf-java
-  visiblename: protobuf
-  version: 3.0.0
-  origversion: 3.0.0-9.1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - apollock@debian.org
-    - edmonds@debian.org
-    - gcs@debian.org
-    - iustin@debian.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/main
   srcname: protobuf
   binnames:
@@ -6716,6 +6713,32 @@
   visiblename: protobuf
   version: 3.0.0
   origversion: 3.0.0-9.1ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - apollock@debian.org
+    - edmonds@debian.org
+    - gcs@debian.org
+    - iustin@debian.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: protobuf
+  binnames:
+    - libprotobuf10
+    - libprotobuf-lite10
+    - libprotobuf-dev
+    - libprotoc10
+    - libprotoc-dev
+    - protobuf-compiler
+    - python-protobuf
+    - python3-protobuf
+    - libprotobuf-java
+  visiblename: protobuf
+  version: 3.0.0
+  origversion: 3.0.0-9.1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -6788,27 +6811,19 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/main
-  srcname: protobuf
+  subrepo: jammy/universe
+  srcname: protobuf2
   binnames:
-    - ruby-google-protobuf
-    - libprotobuf23
-    - libprotobuf-lite23
-    - libprotobuf-dev
-    - libprotoc23
-    - libprotoc-dev
-    - protobuf-compiler
-    - python3-protobuf
-    - libprotobuf-java
-    - elpa-protobuf-mode
-  visiblename: protobuf
-  version: 3.12.4
-  origversion: 3.12.4-1ubuntu7.22.04.6
-  status: outdated
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4
+  status: legacy
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
   categories:
-    - devel
+    - universe/misc
   vulnerable: true
 - repo: ubuntu_22_04
   subrepo: jammy/main
@@ -6834,38 +6849,22 @@
     - devel
   vulnerable: true
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: protobuf2
-  binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble-updates/main
+  subrepo: jammy-updates/main
   srcname: protobuf
   binnames:
     - ruby-google-protobuf
-    - libprotobuf32t64
-    - libprotobuf-lite32t64
+    - libprotobuf23
+    - libprotobuf-lite23
     - libprotobuf-dev
-    - libprotoc32t64
+    - libprotoc23
     - libprotoc-dev
     - protobuf-compiler
     - python3-protobuf
     - libprotobuf-java
     - elpa-protobuf-mode
-    - php-google-protobuf
   visiblename: protobuf
-  version: 3.21.12
-  origversion: 3.21.12-8.2ubuntu0.4
+  version: 3.12.4
+  origversion: 3.12.4-1ubuntu7.22.04.6
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -6897,22 +6896,31 @@
     - devel
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: protobuf2
+  subrepo: noble-updates/main
+  srcname: protobuf
   binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4
-  status: legacy
+    - ruby-google-protobuf
+    - libprotobuf32t64
+    - libprotobuf-lite32t64
+    - libprotobuf-dev
+    - libprotoc32t64
+    - libprotoc-dev
+    - protobuf-compiler
+    - python3-protobuf
+    - libprotobuf-java
+    - elpa-protobuf-mode
+    - php-google-protobuf
+  visiblename: protobuf
+  version: 3.21.12
+  origversion: 3.21.12-8.2ubuntu0.4
+  status: outdated
   maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
-    - universe/misc
+    - devel
   vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: protobuf2
   binnames:
     - libprotobuf2-java
@@ -6973,6 +6981,21 @@
     - gcs@debian.org
   categories:
     - devel
+  vulnerable: true
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: protobuf2
+  binnames:
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4
+  status: legacy
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
+  categories:
+    - universe/misc
   vulnerable: true
 - repo: ubuntu_25_10
   subrepo: questing/main
@@ -7038,6 +7061,21 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: protobuf2
+  binnames:
+    - libprotobuf2-java
+  visiblename: protobuf2
+  version: 2.6.1
+  origversion: 2.6.1-4build1
+  status: legacy
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - saif.15@cse.mrt.ac.lk
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_26_04
   subrepo: resolute-updates/main
   srcname: protobuf
   binnames:
@@ -7085,8 +7123,8 @@
   categories:
     - devel
   vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
   srcname: protobuf2
   binnames:
     - libprotobuf2-java
@@ -7123,21 +7161,6 @@
     - gcs@debian.org
   categories:
     - devel
-  vulnerable: true
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: protobuf2
-  binnames:
-    - libprotobuf2-java
-  visiblename: protobuf2
-  version: 2.6.1
-  origversion: 2.6.1-4build1
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - saif.15@cse.mrt.ac.lk
-  categories:
-    - universe/misc
   vulnerable: true
 - repo: vcpkg
   srcname: protobuf
