@@ -14,14 +14,14 @@ x install protobuf
 
 ## 代码洞察
 
-合计: **1,119,460** 行代码（覆盖前 5 种语言、共 **1860** 个文件）。
+合计: **1,119,497** 行代码（覆盖前 5 种语言、共 **1860** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 268,225 | 25,293 | 35,558 | 571 |
-| Java | 261,599 | 82,469 | 36,874 | 292 |
+| Cpp | 268,254 | 25,280 | 35,562 | 571 |
+| Java | 261,633 | 82,480 | 36,876 | 292 |
 | CSharp | 161,916 | 16,953 | 13,972 | 224 |
-| CHeader | 150,282 | 41,415 | 25,836 | 630 |
+| CHeader | 150,253 | 41,387 | 25,831 | 630 |
 | C | 74,786 | 8,838 | 11,321 | 143 |
 
 ## OpenSSF Scorecard 评分
@@ -30,9 +30,9 @@ x install protobuf
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install protobuf
 ## 发布
 
 - **最新版本**: `v37.0-rc1` (2026-09-17)
-- **最近提交**: 2026-10-24
+- **最近提交**: 2026-10-27
 - **Release 含资产**: 15 个
 
 ## 流行度
 
-- **Star**: 72,128 · **Fork**: 16,326 · **开放 issue**: 6,958 · **贡献者**: 1,255
+- **Star**: 72,131 · **Fork**: 16,330 · **开放 issue**: 6,958 · **贡献者**: 1,255
 
 ## 累计统计
 
-- **发布数**: 222 · **已合并 PR**: 10261 · **开放 PR**: 286 · **已关闭 issue**: 6811 · **开放 issue**: 147 · **提交数**: 24518
+- **发布数**: 222 · **已合并 PR**: 10271 · **开放 PR**: 274 · **已关闭 issue**: 6811 · **开放 issue**: 147 · **提交数**: 24528
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 264 | 181 | 5 | 16 | 276 |
-| last60d | 2026-08-27 | 3 | 441 | 221 | 23 | 33 | 531 |
-| 90d | 2026-07-28 | 5 | 664 | 238 | 32 | 39 | 768 |
-| last180d | 2026-04-29 | 10 | 1223 | 276 | 68 | 55 | 1462 |
-| 360d | 2025-10-31 | 23 | 2058 | 285 | 182 | 73 | 2539 |
-| last720d | 2024-11-05 | 49 | 3958 | 286 | 551 | 94 | 5446 |
+| 30d | 2026-09-27 | 1 | 271 | 169 | 5 | 16 | 283 |
+| last60d | 2026-08-28 | 3 | 444 | 208 | 23 | 33 | 538 |
+| 90d | 2026-07-29 | 5 | 660 | 224 | 31 | 39 | 775 |
+| last180d | 2026-04-30 | 10 | 1226 | 263 | 66 | 55 | 1469 |
+| 360d | 2025-11-01 | 23 | 2065 | 273 | 181 | 73 | 2546 |
+| last720d | 2024-11-06 | 49 | 3960 | 274 | 549 | 94 | 5417 |
 
 ## Release 资产
 
@@ -87,14 +87,14 @@ x install protobuf
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/protobuf) 上共有 **462** 个发行版报告此项目。**33** 个 ✅ 已是最新上游版本，**326** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/protobuf) 上共有 **461** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**326** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `2.6.1` | 🪦 legacy |
-| Debian 14 | `3.21.12` | ⚠️ outdated |
+| Debian unstable | `3.21.12` | ⚠️ outdated |
+| Debian 14 | `2.6.1` | 🪦 legacy |
 | Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `3.21.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
 | Arch | `36.1` | ⚠️ outdated |
 | Homebrew | `36.2` | ✅ latest |
@@ -113,4 +113,4 @@ protobuf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T05:33:46Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T05:55:16Z._
