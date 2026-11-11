@@ -14,25 +14,25 @@ x install protobuf
 
 ## 代码洞察
 
-合计: **1,125,334** 行代码（覆盖前 5 种语言、共 **1867** 个文件）。
+合计: **1,126,222** 行代码（覆盖前 5 种语言、共 **1867** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 271,583 | 25,691 | 35,945 | 574 |
+| Cpp | 272,315 | 25,730 | 36,008 | 574 |
 | Java | 261,730 | 82,484 | 36,886 | 292 |
 | CSharp | 161,738 | 16,959 | 13,978 | 224 |
-| CHeader | 151,612 | 41,918 | 26,030 | 634 |
-| C | 74,992 | 12,333 | 11,449 | 143 |
+| CHeader | 151,601 | 41,970 | 26,007 | 634 |
+| C | 75,043 | 12,347 | 11,447 | 143 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.1 / 10**
+总评分: **7.2 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install protobuf
 ## 发布
 
 - **最新版本**: `v37.0-rc2` (2026-09-17)
-- **最近提交**: 2026-11-10
+- **最近提交**: 2026-11-11
 - **Release 含资产**: 15 个
 
 ## 流行度
 
-- **Star**: 72,161 · **Fork**: 16,357 · **开放 issue**: 6,975 · **贡献者**: 1,263
+- **Star**: 72,162 · **Fork**: 16,358 · **开放 issue**: 6,975 · **贡献者**: 1,263
 
 ## 累计统计
 
-- **发布数**: 223 · **已合并 PR**: 10449 · **开放 PR**: 275 · **已关闭 issue**: 6824 · **开放 issue**: 151 · **提交数**: 24743
+- **发布数**: 223 · **已合并 PR**: 10466 · **开放 PR**: 270 · **已关闭 issue**: 6827 · **开放 issue**: 148 · **提交数**: 24764
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 2 | 301 | 171 | 6 | 24 | 316 |
-| last60d | 2026-09-11 | 3 | 564 | 210 | 15 | 35 | 687 |
-| 90d | 2026-08-12 | 5 | 752 | 233 | 32 | 48 | 872 |
-| last180d | 2026-05-14 | 10 | 1320 | 264 | 72 | 61 | 1570 |
-| 360d | 2025-11-15 | 23 | 2189 | 274 | 184 | 75 | 2664 |
-| last720d | 2024-11-20 | 49 | 4050 | 275 | 552 | 96 | 5238 |
+| 30d | 2026-10-12 | 2 | 304 | 165 | 6 | 22 | 335 |
+| last60d | 2026-09-12 | 3 | 581 | 205 | 15 | 35 | 706 |
+| 90d | 2026-08-13 | 5 | 753 | 227 | 32 | 48 | 891 |
+| last180d | 2026-05-15 | 10 | 1328 | 259 | 75 | 58 | 1589 |
+| 360d | 2025-11-16 | 23 | 2204 | 269 | 186 | 72 | 2683 |
+| last720d | 2024-11-21 | 49 | 4062 | 270 | 555 | 93 | 5244 |
 
 ## Release 资产
 
@@ -94,8 +94,8 @@ x install protobuf
 | Debian unstable | `3.21.12` | ⚠️ outdated |
 | Debian 14 | `3.21.12` | ⚠️ outdated |
 | Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
-| Ubuntu 24.04 LTS | `2.6.1` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `3.21.12` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
 | Arch | `36.1` | ⚠️ outdated |
 | Homebrew | `36.2` | ✅ latest |
 | Fedora rawhide | `33.5` | ⚠️ outdated |
@@ -113,4 +113,4 @@ protobuf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261110.yml` · 2026-11-10T08:29:36Z._
+_数据快照: `data/card/261111.yml` · 2026-11-11T07:05:29Z._
