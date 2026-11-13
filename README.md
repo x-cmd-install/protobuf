@@ -14,15 +14,15 @@ x install protobuf
 
 ## Code insight
 
-Total: **1,127,369** lines of code across **1867** files in the top 5 languages.
+Total: **1,128,864** lines of code across **1870** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 272,951 | 25,904 | 36,091 | 574 |
-| Java | 261,730 | 82,484 | 36,886 | 292 |
+| Cpp | 274,242 | 25,983 | 36,273 | 576 |
+| Java | 261,499 | 82,479 | 36,850 | 292 |
 | CSharp | 161,738 | 16,959 | 13,978 | 224 |
-| CHeader | 151,815 | 42,050 | 26,038 | 634 |
-| C | 75,043 | 12,347 | 11,447 | 143 |
+| CHeader | 152,233 | 42,127 | 26,127 | 635 |
+| C | 75,068 | 12,350 | 11,450 | 143 |
 
 ## OpenSSF Scorecard
 
@@ -30,7 +30,7 @@ Overall score: **7.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v37.0-rc2` (2026-09-17)
-- **Last commit**: 2026-11-12
+- **Latest**: `v37.0-rc3` (2026-09-17)
+- **Last commit**: 2026-11-13
 - **Assets in release**: 15
 
 ## Popularity
 
-- **Stars**: 72,167 · **Forks**: 16,359 · **Open issues**: 6,975 · **Contributors**: 1,263
+- **Stars**: 72,169 · **Forks**: 16,358 · **Open issues**: 6,975 · **Contributors**: 1,263
 
 ## Totals (cumulative)
 
-- **Releases**: 223 · **Merged PRs**: 10482 · **Open PRs**: 252 · **Closed issues**: 6827 · **Open issues**: 148 · **Commits**: 24782
+- **Releases**: 224 · **Merged PRs**: 10491 · **Open PRs**: 261 · **Closed issues**: 6828 · **Open issues**: 147 · **Commits**: 24794
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 2 | 304 | 148 | 6 | 22 | 352 |
-| last60d | 2026-09-13 | 3 | 596 | 184 | 15 | 34 | 723 |
-| 90d | 2026-08-14 | 5 | 754 | 210 | 32 | 48 | 908 |
-| last180d | 2026-05-16 | 10 | 1343 | 241 | 75 | 58 | 1606 |
-| 360d | 2025-11-17 | 23 | 2216 | 251 | 184 | 72 | 2700 |
-| last720d | 2024-11-22 | 49 | 4074 | 252 | 553 | 93 | 5249 |
+| 30d | 2026-10-14 | 3 | 299 | 158 | 7 | 19 | 364 |
+| last60d | 2026-09-14 | 4 | 599 | 194 | 14 | 33 | 735 |
+| 90d | 2026-08-15 | 6 | 762 | 220 | 33 | 47 | 920 |
+| last180d | 2026-05-17 | 11 | 1351 | 250 | 76 | 57 | 1618 |
+| 360d | 2025-11-18 | 24 | 2221 | 260 | 184 | 71 | 2712 |
+| last720d | 2024-11-23 | 50 | 4082 | 261 | 552 | 92 | 5250 |
 
 ## Release assets
 
@@ -87,15 +87,15 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **460** distros on [repology.org](https://repology.org/project/protobuf). **33** are ✅ on the latest upstream release, **323** are ⚠️ on an older version.
+Reported by **460** distros on [repology.org](https://repology.org/project/protobuf). **34** are ✅ on the latest upstream release, **322** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `3.21.12` | ⚠️ outdated |
 | Debian 14 | `3.21.12` | ⚠️ outdated |
 | Debian 13 | `3.21.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.21.12` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.21.12` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.1` | 🪦 legacy |
+| Ubuntu 24.04 LTS | `2.6.1` | 🪦 legacy |
 | Arch | `36.1` | ⚠️ outdated |
 | Homebrew | `36.2` | ✅ latest |
 | Fedora rawhide | `33.5` | ⚠️ outdated |
@@ -113,4 +113,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:34:59Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:55:25Z._
