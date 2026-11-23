@@ -18,7 +18,7 @@ Total: **1,137,068** lines of code across **1874** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 279,191 | 26,307 | 36,803 | 578 |
+| Cpp | 279,191 | 26,307 | 36,805 | 578 |
 | Java | 261,918 | 82,536 | 36,901 | 293 |
 | CSharp | 162,118 | 16,979 | 14,011 | 224 |
 | CHeader | 152,557 | 42,348 | 26,179 | 636 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v37.0-rc3` (2026-09-17)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-23
 - **Assets in release**: 15
 
 ## Popularity
 
-- **Stars**: 72,192 · **Forks**: 16,353 · **Open issues**: 6,984 · **Contributors**: 1,266
+- **Stars**: 72,191 · **Forks**: 16,360 · **Open issues**: 6,983 · **Contributors**: 1,265
 
 ## Totals (cumulative)
 
-- **Releases**: 224 · **Merged PRs**: 10600 · **Open PRs**: 238 · **Closed issues**: 6835 · **Open issues**: 149 · **Commits**: 24918
+- **Releases**: 224 · **Merged PRs**: 10602 · **Open PRs**: 230 · **Closed issues**: 6834 · **Open issues**: 149 · **Commits**: 24920
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 2 | 328 | 128 | 10 | 18 | 335 |
-| last60d | 2026-09-23 | 3 | 622 | 156 | 18 | 31 | 722 |
-| 90d | 2026-08-24 | 5 | 801 | 191 | 38 | 48 | 934 |
-| last180d | 2026-05-26 | 9 | 1419 | 226 | 75 | 58 | 1653 |
-| 360d | 2025-11-27 | 24 | 2297 | 237 | 190 | 72 | 2756 |
-| last720d | 2024-12-02 | 49 | 4157 | 238 | 546 | 94 | 5337 |
+| 30d | 2026-10-24 | 2 | 326 | 119 | 10 | 18 | 337 |
+| last60d | 2026-09-24 | 3 | 617 | 146 | 18 | 31 | 724 |
+| 90d | 2026-08-25 | 5 | 793 | 184 | 38 | 47 | 936 |
+| last180d | 2026-05-27 | 9 | 1413 | 217 | 75 | 58 | 1655 |
+| 360d | 2025-11-28 | 24 | 2299 | 229 | 190 | 72 | 2758 |
+| last720d | 2024-12-03 | 49 | 4148 | 230 | 543 | 94 | 5326 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for protobuf lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:41:45Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T11:01:10Z._
